@@ -3,7 +3,7 @@ void main(){
   String? nome;
 
   // Esta variavel NÂO pode ser nula (sem ?)
-  String saudacao = "Ola";
+  // String saudacao = "Ola";
 
   print("Exemplo 1: Variavel nula");
   print(nome); // Saida null (ela pode ser null)
