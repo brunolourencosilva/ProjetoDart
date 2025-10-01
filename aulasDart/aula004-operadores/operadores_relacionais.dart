@@ -14,5 +14,9 @@ void main(){
   print('$a < $b Resultado: ${a < b}');
   print('$a ≥ $b Resultado: ${a >= b}');
   print('$a ≤ $b Resultado: ${a <= b}');
+
+  bool igual = a == b;
+  print('Verificando de igualdade: $igual');
+  print('-'*70);
   
 }
