@@ -7,7 +7,7 @@
 ### ✅ Checklist de Exercícios
 
 - [✅] **A.** Mostrar a mensagem **"Olá Mundo!"** na tela  
-- [ ] **B.** Pedir 2 valores e calcular **soma, produto, subtração, divisão, resto e divisão inteira**  
+- [✅] **B.** Pedir 2 valores e calcular **soma, produto, subtração, divisão, resto e divisão inteira**  
 - [ ] **C.** Pedir um **ano** e calcular a **idade**  
 - [ ] **D.** Pedir **4 notas** e calcular a **média**  
 - [ ] **E.** Dividir **2 números** e mostrar resultado com **4 casas decimais**  
@@ -30,8 +30,3 @@
 - [ ] **S.** Calcular **juros**
 
 ---
-
-### 🧠 Observações
-- Todos os programas devem usar **entrada de dados**.  
-- Implementar **validações com `if` e null safety**.  
-- Mantenha o código limpo e comentado.
