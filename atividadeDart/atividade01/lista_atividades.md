@@ -9,7 +9,7 @@
 - [✅] **A.** Mostrar a mensagem **"Olá Mundo!"** na tela  
 - [✅] **B.** Pedir 2 valores e calcular **soma, produto, subtração, divisão, resto e divisão inteira**  
 - [✅] **C.** Pedir um **ano** e calcular a **idade**  
-- [ ] **D.** Pedir **4 notas** e calcular a **média**  
+- [✅] **D.** Pedir **4 notas** e calcular a **média**  
 - [ ] **E.** Dividir **2 números** e mostrar resultado com **4 casas decimais**  
 - [ ] **F.** Mostrar o **sucessor e antecessor** de um número inteiro  
 - [ ] **G.** Calcular o **dobro e triplo** de um número  

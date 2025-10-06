@@ -1,8 +1,14 @@
 import 'dart:io';
 
-int lerValor(String rotulo) {
+void main() {
+  int valor1;
+  int valor2;
+  int valor3;
+  int valor4;
+
+  // Primeiro valor
   while (true) {
-    stdout.write("Entre com $rotulo: ");
+    stdout.write("Entre com a primeira nota: ");
     String? entrada = stdin.readLineSync();
 
     if (entrada == null || entrada.isEmpty) {
@@ -10,21 +16,75 @@ int lerValor(String rotulo) {
       continue;
     }
 
-    int? valor = int.tryParse(entrada);
-    if (valor == null || valor <= 0) {
+    int? temp = int.tryParse(entrada);
+    if (temp == null || temp <= 0) {
       print("Digite um valor válido.");
       continue;
     }
 
-    return valor;
+    valor1 = temp;
+    break;
   }
-}
 
-void main() {
-  int valor1 = lerValor("a primeira nota");
-  int valor2 = lerValor("a segunda nota");
-  int valor3 = lerValor("a terceira nota");
-  int valor4 = lerValor("a quarta nota");
+  // Segundo valor
+  while (true) {
+    stdout.write("Entre com a segunda nota: ");
+    String? entrada = stdin.readLineSync();
+
+    if (entrada == null || entrada.isEmpty) {
+      print("Valor não pode ser vazio.");
+      continue;
+    }
+
+    int? temp = int.tryParse(entrada);
+    if (temp == null || temp <= 0) {
+      print("Digite um valor válido.");
+      continue;
+    }
+
+    valor2 = temp;
+    break;
+  }
+
+  // Terceiro valor
+  while (true) {
+    stdout.write("Entre com a terceira nota: ");
+    String? entrada = stdin.readLineSync();
+
+    if (entrada == null || entrada.isEmpty) {
+      print("Valor não pode ser vazio.");
+      continue;
+    }
+
+    int? temp = int.tryParse(entrada);
+    if (temp == null || temp <= 0) {
+      print("Digite um valor válido.");
+      continue;
+    }
+
+    valor3 = temp;
+    break;
+  }
+
+  // Quarto valor
+  while (true) {
+    stdout.write("Entre com a quarta nota: ");
+    String? entrada = stdin.readLineSync();
+
+    if (entrada == null || entrada.isEmpty) {
+      print("Valor não pode ser vazio.");
+      continue;
+    }
+
+    int? temp = int.tryParse(entrada);
+    if (temp == null || temp <= 0) {
+      print("Digite um valor válido.");
+      continue;
+    }
+
+    valor4 = temp;
+    break;
+  }
 
   var total = valor1 + valor2 + valor3 + valor4;
   var media = total / 4;
