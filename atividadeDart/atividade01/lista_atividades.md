@@ -13,7 +13,7 @@
 - [✅] **E.** Dividir **2 números** e mostrar resultado com **4 casas decimais**  
 - [✅] **F.** Mostrar o **sucessor e antecessor** de um número inteiro  
 - [✅] **G.** Calcular o **dobro e triplo** de um número  
-- [ ] **H.** Converter **medidas**  
+- [✅] **H.** Converter **medidas**  
 - [ ] **I.** Gerar a **tabuada de multiplicação** de um número inteiro  
 - [ ] **J.** Converter um valor em **reais** para **euros, dólares e wons**  
 - [ ] **K.** Calcular a **área de 4 objetos**  
