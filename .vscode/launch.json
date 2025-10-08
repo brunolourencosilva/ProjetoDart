@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Dart (atividadeDart\\atividade01\\letraI-tabuada.dart)",
+            "type": "dart",
+            "request": "launch",
+            "program": "atividadeDart\\atividade01\\letraI-tabuada.dart"
+        }
+    ]
+}

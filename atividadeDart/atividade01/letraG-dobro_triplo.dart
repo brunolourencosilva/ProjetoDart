@@ -13,7 +13,6 @@ void main() {
     }
 
     double? temp = double.tryParse(entrada);
-    double? temp = double.tryParse(entrada);
     if (temp == null) {
       print("Digite um valor válido.");
       continue;

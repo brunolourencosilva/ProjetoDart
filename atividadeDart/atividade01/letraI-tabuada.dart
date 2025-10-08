@@ -1,11 +1,9 @@
-
 import 'dart:io';
 
 void main() {
   while (true) {
-    // entrada
-    print('/'*70);
-    stdout.write("Entre com uma medida em CM: ");
+    print('/' * 70);
+    stdout.write("Entre com um valor: ");
     String? entrada = stdin.readLineSync();
 
     if (entrada == null || entrada.isEmpty) {
@@ -13,22 +11,21 @@ void main() {
       continue;
     }
 
-   double? temp = double.tryParse(entrada);
-    if (temp == null || temp <= 0) {
-      print("Digite um valor válido.");
+    int? temp = int.tryParse(entrada);
+    if (temp == null) {
+      print("Digite um número inteiro válido.");
       continue;
     }
 
-    var centimetros = temp;
-    var metros = centimetros / 100;
-    var kilometros = metros / 1000;
+    var valor = temp;
+    print('-' * 70);
+    print("Tabuada de $valor:");
+    print('-' * 70);
 
-    print('-'*70);
-    print('Valor original em cm: $centimetros');
-    print('Medida em Metros: $metros');
-    print('Medida em Kilometros: $kilometros');
-    print('/'*70);
+    for (int i = 1; i <= 10; i++) {
+      print("$valor x $i = ${valor * i}");
+    }
+    print('/' * 70);
     break;
   }
 }
-
