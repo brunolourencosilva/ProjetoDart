@@ -16,7 +16,7 @@
 - [✅] **H.** Converter **medidas**  
 - [✅] **I.** Gerar a **tabuada de multiplicação** de um número inteiro  
 - [✅] **J.** Converter um valor em **reais** para **euros, dólares e wons**  
-- [ ] **K.** Calcular a **área de 4 objetos**  
+- [✅] **K.** Calcular a **área de 4 objetos**  
 - [ ] **L.** Informar se um número é **par ou ímpar**  
 - [ ] **M.** Ler dois valores `A` e `B`  
    - Se forem iguais, **somar** os dois  
