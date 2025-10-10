@@ -18,13 +18,13 @@
 - [✅] **J.** Converter um valor em **reais** para **euros, dólares e wons**  
 - [✅] **K.** Calcular a **área de 4 objetos**  
 - [✅] **L.** Informar se um número é **par ou ímpar**  
-- [ ] **M.** Ler dois valores `A` e `B`  
+- [✅] **M.** Ler dois valores `A` e `B`  
    - Se forem iguais, **somar** os dois  
    - Caso contrário, **multiplicar A por B**  
    - Mostrar o resultado em `C`  
-- [ ] **N.** Calcular o **dobro se positivo** e o **triplo se negativo**  
-- [ ] **O.** Somar **5 se par** e **8 se ímpar**  
-- [ ] **P.** Mostrar **três valores inteiros** em **ordem decrescente**  
+- [✅] **N.** Calcular o **dobro se positivo** e o **triplo se negativo**  
+- [✅] **O.** Somar **5 se par** e **8 se ímpar**  
+- [ ] **P.** Mostrar **três valores inteiros diferentes** em **ordem decrescente**  
 - [ ] **Q.** Calcular o **IMC completo** de uma pessoa  
 - [ ] **R.** Converter **temperaturas** (C ⇄ F)  
 - [ ] **S.** Calcular **juros**
