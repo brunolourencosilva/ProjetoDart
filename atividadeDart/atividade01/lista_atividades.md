@@ -27,6 +27,6 @@
 - [✅] **P.** Mostrar **três valores inteiros diferentes** em **ordem decrescente**  
 - [✅] **Q.** Calcular o **IMC completo** de uma pessoa  
 - [✅] **R.** Converter **temperaturas** (C ⇄ F)  
-- [ ] **S.** Calcular **juros**
+- [✅] **S.** Calcular **juros**
 
 ---
