@@ -22,15 +22,15 @@ void main() {
     if (valor < 0){
       var triplo = valor * 3;
       print('-' * 70);
-      print("Valor negativo,o triplo do valo $valor sera $triplo");
+      print("Valor negativo,o dobro do valor $valor sera $triplo");
       print('-' * 70);
     }else{
       var dobro = valor * 2;
       print('-' * 70);
-      print("Valor positivo,o triplo do valo $valor sera $dobro");
+      print("Valor positivo,o triplo do valor $valor sera $dobro");
       print('-' * 70);
     }
-
+// Mudar para s/n invez desse que ja esta ai
     stdout.write("Digite '1' para sair / Digite qualquer outro valor para continuar: ");
     String? resposta = stdin.readLineSync();
 
