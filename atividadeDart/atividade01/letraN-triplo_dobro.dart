@@ -1,6 +1,7 @@
 import 'dart:io';
 void main() {
   while (true) {
+    print(' ');
     print('/' * 70);
     stdout.write("Entre com um valor: ");
     String? entrada = stdin.readLineSync();
@@ -20,10 +21,25 @@ void main() {
 
     if (valor < 0){
       var triplo = valor * 3;
+      print('-' * 70);
       print("Valor negativo,o triplo do valo $valor sera $triplo");
+      print('-' * 70);
     }else{
       var dobro = valor * 2;
+      print('-' * 70);
       print("Valor positivo,o triplo do valo $valor sera $dobro");
+      print('-' * 70);
     }
+
+    stdout.write("Digite '1' para sair ou qualquer tecla para continuar: ");
+    String? resposta = stdin.readLineSync();
+
+    if (resposta != null && resposta == '1') {
+      print(' ');
+      print("Encerrando...");
+      print('/' * 70);
+      break;
+    }
+
   }
 }
