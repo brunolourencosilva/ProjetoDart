@@ -31,7 +31,7 @@ void main() {
       print('-' * 70);
     }
 
-    stdout.write("Digite '1' para sair ou qualquer tecla para continuar: ");
+    stdout.write("Digite '1' para sair / Digite qualquer outro valor para continuar: ");
     String? resposta = stdin.readLineSync();
 
     if (resposta != null && resposta == '1') {
