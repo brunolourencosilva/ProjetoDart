@@ -10,9 +10,9 @@ Obrigatório:
 
 - [✅] B - Fatorial com repetição: Faça um programa que leia um número inteiro positivo e calcule seu fatorial usando um loop.
 
-- [ ] C - Soma dos múltiplos: Faça um programa que receba um número inteiro N e calcule a soma de todos os múltiplos de 3 ou 5 menores que N. 
+- [✅] C - Soma dos múltiplos: Faça um programa que receba um número inteiro N e calcule a soma de todos os múltiplos de 3 ou 5 menores que N. 
 
-- [ ] D - Verificação de ano bissexto: Faça um programa que receba um ano e verifique se ele é bissexto, exibindo a resposta.
+- [✅] D - Verificação de ano bissexto: Faça um programa que receba um ano e verifique se ele é bissexto, exibindo a resposta.
 
 - [ ] E - Tabela de velocidades: Faça um programa que leia o tempo (em segundos) e a aceleração constante de um objeto e imprima sua velocidade a cada segundo até o tempo informado.
 
