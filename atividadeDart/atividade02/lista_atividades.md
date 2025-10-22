@@ -8,7 +8,7 @@ Obrigatório:
 
 - [✅] A - Números primos no intervalo: Faça um programa que receba dois números inteiros A e B e imprima todos os números primos entre A e B (inclusive).
 
-- [ ] B - Fatorial com repetição: Faça um programa que leia um número inteiro positivo e calcule seu fatorial usando um loop.
+- [✅] B - Fatorial com repetição: Faça um programa que leia um número inteiro positivo e calcule seu fatorial usando um loop.
 
 - [ ] C - Soma dos múltiplos: Faça um programa que receba um número inteiro N e calcule a soma de todos os múltiplos de 3 ou 5 menores que N. 
 
