@@ -6,7 +6,7 @@ Obrigatório:
 
 ### ✅ Checklist de Exercícios
 
-- [ ] A - Números primos no intervalo: Faça um programa que receba dois números inteiros A e B e imprima todos os números primos entre A e B (inclusive).
+- [✅] A - Números primos no intervalo: Faça um programa que receba dois números inteiros A e B e imprima todos os números primos entre A e B (inclusive).
 
 - [ ] B - Fatorial com repetição: Faça um programa que leia um número inteiro positivo e calcule seu fatorial usando um loop.
 
