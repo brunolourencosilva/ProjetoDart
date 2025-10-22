@@ -1,12 +1,15 @@
-// A - Números primos no intervalo: Faça um programa que receba dois números inteiros A e B e imprima todos os números primos entre A e B (inclusive).
+// A - Números primos no intervalo: Faça um programa que receba 
+// dois números inteiros A e B e imprima todos os números primos entre A e B (inclusive).
 
 import "dart:io";
 import "dart:math";
 
 void main(){
+    print("="*70);
+    print("Números primos em um intervalo");
+    print("="*70);
   while(true){
-    bool encerrar = true;
-
+    print("");
     // ======= Primeiro valor =======
     stdout.write('Informe com o 1º valor: ');
     String? entrada1 = stdin.readLineSync();
@@ -38,8 +41,13 @@ void main(){
       print("Erro,Valor invalido ");
       continue;
     }
-
     var B = temp2;
+
+    if (A > B) {
+      print("O primeiro valor deve ser menor que o segundo.");
+      continue;
+    }
+
 
     print("Números primos entre $A e $B:");
 
@@ -59,32 +67,23 @@ void main(){
         print(i);
       }
     }
-    while(encerrar){
+    while (true) {
+      print("="*70);
       stdout.write('Deseja continuar? (SIM/NAO): ');
-      String? escolha = stdin.readLineSync();
+      String? escolha = stdin.readLineSync()?.toUpperCase();
 
-      if (escolha == null || escolha.isEmpty){
-        print("Erro,Valor invalido ");
-        continue;
-      }
-
-      var escolhaLower = escolha.toUpperCase();
-
-      if (escolhaLower == 'SIM'){
-        print('Continuando Programa');
-        continue;
-      }else if(escolhaLower == 'NAO'){
-        print('Encerrando programa,tchau mundo...');
-        encerrar = false;
+      if (escolha == 'SIM') {
         break;
-      }else{
-        print('Erro,valore invalido');
-        continue;
       }
+      if (escolha == 'NAO') {
+        print('Encerrando programa, tchau mundo...');
+        print("="*70);
+        return; // encerra o programa de vez
+      }
+
+      print('Erro, valor inválido.');
     }
-    if (encerrar == false){
-      break;
-    }
+
   }
 
 }

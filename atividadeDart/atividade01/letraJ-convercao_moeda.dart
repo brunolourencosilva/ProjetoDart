@@ -9,7 +9,7 @@ void main() {
     if (entrada == null || entrada.isEmpty) {
       print("Valor não pode ser vazio.");
       continue;
-    }
+    } 
 
     double? temp = double.tryParse(entrada);
     if (temp == null) {
