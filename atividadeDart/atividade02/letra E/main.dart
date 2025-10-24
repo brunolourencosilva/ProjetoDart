@@ -4,7 +4,12 @@
 import 'dart:io';
 
 void main(){
+  print('='*70);
+  print('Tabela de velocidades');
+  print('='*70);
+
   while(true){
+    print('');
     // ===== Primeira entrada =====
     stdout.write('Informe um tempo em segundos: ');
     String? valor1 = stdin.readLineSync();
@@ -38,12 +43,14 @@ void main(){
     }
 
     var aceleracao = temp2;
-
+    print('-'*70);
     for (int i = 1; i <= segundos; i++) {
       int velocidade = aceleracao * i;
       print('Velocidade no segundo $i: $velocidade m/s');
     }
 
+    print('');
+    print('.'*70);
     while(true){
       stdout.write('Deseja continuar? (SIM/NAO)');
       String? escolha = stdin.readLineSync()?.toUpperCase();
@@ -54,7 +61,16 @@ void main(){
       }
 
       if(escolha == "SIM"){
-        print('Continuando programa...');
+        print('Continuando programa');
+        print('.'*70);
+        break;
+      }else if(escolha == "NAO"){
+        print('Encerrando programa');
+        print('.'*70);
+        return;
+      }else{
+        print('Valor invalido');
+        continue;
       }
     }
   }
