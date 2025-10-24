@@ -14,7 +14,7 @@ Obrigatório:
 
 - [✅] D - Verificação de ano bissexto: Faça um programa que receba um ano e verifique se ele é bissexto, exibindo a resposta.
 
-- [ ] E - Tabela de velocidades: Faça um programa que leia o tempo (em segundos) e a aceleração constante de um objeto e imprima sua velocidade a cada segundo até o tempo informado.
+- [✅] E - Tabela de velocidades: Faça um programa que leia o tempo (em segundos) e a aceleração constante de um objeto e imprima sua velocidade a cada segundo até o tempo informado.
 
 - [ ] F - Conversão de energia: Faça um programa que leia um valor em joules e converta para calorias (1 caloria = 4,184 joules), exibindo os resultados.
 
