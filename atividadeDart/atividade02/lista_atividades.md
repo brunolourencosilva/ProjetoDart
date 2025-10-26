@@ -22,7 +22,7 @@ Obrigatório:
 
 - [ ] H - Cálculo de velocidade média: Faça um programa que receba as distâncias percorridas a cada intervalo de tempo e calcule a velocidade média total do percurso. 
 
-- [ ] I - Classificação de ângulos: Faça um programa que receba um ângulo em graus e classifique-o como agudo (<90°), reto (90°), obtuso (>90° e <180°) ou rente (180°).
+- [✅] I - Classificação de ângulos: Faça um programa que receba um ângulo em graus e classifique-o como agudo (<90°), reto (90°), obtuso (>90° e <180°) ou rente (180°).
 
 - [ ] J - Contagem regressiva: Faça um programa que receba um número inteiro positivo e faça uma contagem regressiva até zero, imprimindo cada número.
 
