@@ -26,7 +26,7 @@ Obrigatório:
 
 - [✅] J - Contagem regressiva: Faça um programa que receba um número inteiro positivo e faça uma contagem regressiva até zero, imprimindo cada número.
 
-- [ ] K - Determinação do maior divisor comum (MDC): Faça um programa que receba dois números inteiros e calcule o MDC usando o algoritmo de Euclides com repetição.
+- [✅] K - Determinação do maior divisor comum (MDC): Faça um programa que receba dois números inteiros e calcule o MDC usando o algoritmo de Euclides com repetição.
 
 - [ ] L - Resfriamento de um líquido: Faça um programa que simule o resfriamento de um líquido a partir de uma temperatura inicial até atingir a temperatura ambiente (25°C). A cada segundo, a temperatura diminui 2%. Imprima a temperatura a cada segundo.
 
