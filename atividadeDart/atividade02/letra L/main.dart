@@ -13,7 +13,6 @@ void main() {
   while (true) {
     print('');
 
-    // Entrada do primeiro número
     stdout.write('Informe uma temperatura: ');
     String? valor1 = stdin.readLineSync();
 
@@ -31,10 +30,11 @@ void main() {
     var temperatura = num1;
 
     print('');
-     for (int segundos = 0; temperatura > 25; segundos++) {
+    for (int segundos = 0; temperatura > 25; segundos++) {
       print('Segundos: $segundos - Temperatura: ${temperatura.toStringAsFixed(2)}°C');
       temperatura *= 0.98; // diminui 2%
     }
+
     print('');
     print('Temperatura final atingiu nivel ambiente: ${temperatura.toStringAsFixed(2)}°C');
     print('.'*70);
