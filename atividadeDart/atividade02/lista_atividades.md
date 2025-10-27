@@ -20,7 +20,7 @@ Obrigatório:
 
 - [✅] G - Sequência de potências:Faça um programa que receba um número inteiro N e imprima as potências de 2 de 0 até N (2⁰, 2¹, ..., 2ᴺ). 
 
-- [ ] H - Cálculo de velocidade média: Faça um programa que receba as distâncias percorridas a cada intervalo de tempo e calcule a velocidade média total do percurso. 
+- [✅] H - Cálculo de velocidade média: Faça um programa que receba as distâncias percorridas a cada intervalo de tempo e calcule a velocidade média total do percurso. 
 
 - [✅] I - Classificação de ângulos: Faça um programa que receba um ângulo em graus e classifique-o como agudo (<90°), reto (90°), obtuso (>90° e <180°) ou rente (180°).
 
