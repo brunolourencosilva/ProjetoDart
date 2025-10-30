@@ -16,5 +16,7 @@ void main(){
     }
     print('-'*70);
     //Podemos usar fatiamento como na linguagem Python
-    print('');
+    print('${listaAlunas[0]}, tambem conhecida como ${listaAlunas[3]}');
+    print('${listaAlunas[3]}, tambem conhecida como ${listaAlunas[0]}');
+    print('-'*70);
 }
