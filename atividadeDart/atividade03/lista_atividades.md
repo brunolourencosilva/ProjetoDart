@@ -17,7 +17,7 @@ Obrigatório:
         Considere uma lista de notas de alunos. O exercício exige que se descarte a menor nota da lista e, em seguida, calcule a média aritmética das notas restantes. O resultado deve ser um número decimal (double).
 
 
-- [ ] 4. Multiplicação de Elementos Ímpares
+- [✅] 4. Multiplicação de Elementos Ímpares
         Percorra uma lista de números inteiros. Para cada número, verifique se ele é ímpar. Se for ímpar, ele deve ser multiplicado por 2. Se for par, ele deve permanecer inalterado. O resultado final deve ser uma nova lista com os valores transformados.
 
 
