@@ -13,7 +13,7 @@ Obrigatório:
         Dada uma lista de inteiros que contém valores duplicados, o desafio é determinar quantos valores únicos existem na lista. A solução deve percorrer a lista e construir uma nova coleção (ou usar um Set temporário, se permitido, ou uma lista auxiliar) para armazenar apenas os elementos que ainda não foram vistos, reportando o total de elementos únicos ao final.
 
 
-- [ ] 3. Cálculo de Média Ponderada Após Descarte
+- [✅] 3. Cálculo de Média Ponderada Após Descarte
         Considere uma lista de notas de alunos. O exercício exige que se descarte a menor nota da lista e, em seguida, calcule a média aritmética das notas restantes. O resultado deve ser um número decimal (double).
 
 
