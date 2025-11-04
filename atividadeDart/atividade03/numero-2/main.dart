@@ -14,15 +14,9 @@ void main(){
       }
   }
 
-  List<int> unicos = listaInteiros.where(
-    (n) => listaInteiros.where((x) => x == n).length == 1
-  ).toList();
+  List<int> unicos = listaInteiros.where((n) => listaInteiros.where((x) => x == n).length == 1).toList();
 
-  int totalUnicos = listaInteiros
-      .where((n) => !duplicados.contains(n))
-      .toSet()
-      .length;
-
+  int totalUnicos = listaInteiros.where((n) => !duplicados.contains(n)).toSet().length;
 
   print('/'*70);
   print('');
