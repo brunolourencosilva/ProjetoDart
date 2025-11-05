@@ -29,7 +29,7 @@ void main() {
   print('-' * 70);
   print('');
   print('Lista original: $palavras');
-  print('Frase final: $fraseFinal');
+  print('Lista de inteiros: $listaInteiros');
   print('');
   print('/' * 70);
 }
