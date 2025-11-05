@@ -29,7 +29,7 @@ void main() {
   print('/' * 70);
   print('');
   print('-' * 70);
-  print('Filtragem Dupla em Lista de Palavras');
+  print('Criação de Frase com Filtro');
   print('-' * 70);
   print('');
   print('Lista original: $palavras');
