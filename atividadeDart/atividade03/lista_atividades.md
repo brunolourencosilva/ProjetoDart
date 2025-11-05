@@ -33,7 +33,7 @@
 - [✅] 9. Filtragem de Emails Válidos (Regra Simples)
         Dada uma lista de strings que supostamente são endereços de email, filtre e colete em uma nova lista apenas os emails que contêm exatamente um caractere '@' e terminam com ".com".
 
-- [ ] 10. Reversão Manual da Ordem dos Elementos
+- [✅] 10. Reversão Manual da Ordem dos Elementos
         Dada uma lista de strings, crie uma nova lista que contenha os mesmos elementos, mas na ordem inversa da lista original. O uso de List.reversed é permitido para fins de comparação, mas a implementação principal deve usar uma estrutura de repetição (for ou while).
 
 - [ ] 11. Normalização e Classificação de Dados
