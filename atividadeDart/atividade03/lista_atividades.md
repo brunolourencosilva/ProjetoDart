@@ -35,7 +35,7 @@ Obrigatório:
         Dada uma lista de strings, crie uma única string (frase) concatenando apenas as palavras que terminam com a letra 'R' (maiúscula ou minúscula). As palavras devem ser separadas por um espaço na frase final.
  
 
-- [ ] 8. Transformação de Lista de Palavras em Lista de Comprimentos
+- [✅] 8. Transformação de Lista de Palavras em Lista de Comprimentos
         Dada uma lista de palavras, crie uma nova lista de inteiros onde cada inteiro representa o número de caracteres da palavra correspondente na lista original.
  
 
