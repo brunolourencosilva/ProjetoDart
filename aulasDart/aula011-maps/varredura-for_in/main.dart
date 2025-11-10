@@ -23,4 +23,14 @@ void main(){
     print('$chave:$valor');
   }
   print('-'*70);
+
+  // 3. Usando values -> pecorre apenas os valores do Map
+  Map<String,dynamic> meuMap3 = {'nome':'John Doe','nascimento':1970};
+
+  print('VARRENDO COM value');
+  print('-'*70);
+  for (var valor in meuMap3.values){
+    print(valor);
+  }
+  print('-'*70);
 }
