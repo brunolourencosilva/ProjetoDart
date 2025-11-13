@@ -33,6 +33,7 @@ void main(){
         print('2-Adicionar no estoque');
         print('3-Remover do estoque');
         print('4-Atualizar o estoque');
+        print('5-Resumo detalhado');
         print('0-voltar');
 
         stdout.write("\nOpção: ");
@@ -308,7 +309,66 @@ void main(){
             }
           }
         }
+        // ================================ Resumo detalhado ================================
+        else if (opcaoEstoque == '5'){
+          while(true){
+            print('\x1B[2J\x1B[0;0H');
+            if (estoque.isEmpty){
+              print('\x1B[2J\x1B[0;0H');
+              print('Estoque vazio');
 
+              stdout.write("\nPressione Enter para continuar");
+              stdin.readLineSync();
+              continue;
+            }
+
+
+            double total = 0.0;
+            int totalqtd = 0;
+
+            // ---- Total geral ----
+            for (var produto in estoque) {
+              double totalGeral = produto['preco'] * produto['quantidade'];
+              total += totalGeral;
+            }
+
+            // ---- Quantidade total ----
+            for (var produto in estoque) {
+              int totalQuantidade = produto['quantidade'];
+              totalqtd += totalQuantidade;
+            }
+
+            // ---- SubTotal de cada item ----
+            print('SubTotal de cada item ');
+            for (int i = 0; i < estoque.length; i++){
+              var itens = estoque[i];
+              double subTotal = itens['preco'] * itens['quantidade'];
+              String formatarNome(String nome) {
+              return nome
+                  .split(' ')
+                  .map((palavra) =>
+                      palavra.isNotEmpty
+                          ? palavra[0].toUpperCase() + palavra.substring(1).toLowerCase()
+                          : '')
+                  .join(' ');
+              }
+              print('');
+              print('${i + 1}. Nome: ${formatarNome(itens['nome'])},Subtotal: $subTotal');
+              print('');
+            }
+
+            print('/'*70);
+            print('');
+            print("Total geral: R\$ ${total.toStringAsFixed(2)}");
+            print("Quantidade total: R\$ ${totalqtd}");
+            print('');
+            print('/'*70);
+
+            stdout.write("\nPressione Enter para continuar");
+            stdin.readLineSync();
+            break;
+            }
+          }
         // ================================ Voltar para menu principal ================================
         else if(opcaoEstoque == "0"){
           break;
