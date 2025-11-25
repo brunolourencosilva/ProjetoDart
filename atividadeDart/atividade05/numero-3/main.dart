@@ -3,8 +3,6 @@
 //  em seguida, calcule a média aritmética das notas restantes. O resultado deve ser um número decimal (double).
 
  void calcularMedia(List<List<dynamic>> lista) {
-  Set<int> valoresNaoUnicos = {};
-  Set<int> duplicados = {};
 
   for (var aluno in lista) {
     String nome = aluno[0];
