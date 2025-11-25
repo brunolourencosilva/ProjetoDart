@@ -8,7 +8,7 @@ Refatoração da lista de atividade03 porem com função;
 - [✅] 1 -  Filtragem e Soma Condicional de Pares:
         Dada uma lista de números inteiros, o objetivo é primeiro filtrar apenas os números que são pares e, simultaneamente, maiores que 10. Após a filtragem, deve-se calcular a soma total desses números restantes.
 
-- [ ] 2. Identificação e Contagem de Ocorrências Distintas:
+- [✅] 2. Identificação e Contagem de Ocorrências Distintas:
         Dada uma lista de inteiros que contém valores duplicados, o desafio é determinar quantos valores únicos existem na lista. A solução deve percorrer a lista e construir uma nova coleção (ou usar um Set temporário, se permitido, ou uma lista auxiliar) para armazenar apenas os elementos que ainda não foram vistos, reportando o total de elementos únicos ao final.
 
 - [ ] 3. Cálculo de Média Ponderada Após Descarte
