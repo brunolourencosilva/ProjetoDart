@@ -8,5 +8,8 @@ void main(){
   //.isOdd é uma propriedade fornecida pela classe int em Dart
   // que retorna true se o numero for impar e false se for par.
   var novaLista = lista
-  . where((numero) {return numero})
+  . where((numero) {return numero.isOdd;})
+  .map((numero) => numero * 2).toList();
+
+  print(novaLista);
 }
