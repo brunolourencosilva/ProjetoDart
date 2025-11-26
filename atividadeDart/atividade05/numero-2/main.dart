@@ -1,21 +1,26 @@
-// 2. Identificação e Contagem de Ocorrências Distintas com função:
+// 2. Identificação e Contagem de Ocorrências Distintas com parametro nomeado:
 // Dada uma lista de inteiros que contém valores duplicados, o desafio é determinar quantos valores únicos existem na lista.
 // A solução deve percorrer a lista e construir uma nova coleção (ou usar um Set temporário, se permitido, ou uma lista auxiliar)
 // para armazenar apenas os elementos que ainda não foram vistos, reportando o total de elementos únicos ao final.
 
-int filtroDuplicata(List<int> lista) {
-  Set<int> valoresNaoUnicos = {};
+int filtroDuplicata({
+  required List<int> lista,
+  int minimo = 20,
+}) {
+  Set<int> vistos = {};
   Set<int> duplicados = {};
 
   for (var n in lista) {
-    if (!valoresNaoUnicos.add(n)) {
+    if (!vistos.add(n)) {
       duplicados.add(n);
     }
   }
 
-  int totalUnicos = lista.where((n) => !duplicados.contains(n)).toSet().length;
+  List<int> unicos = lista.where((n) => !duplicados.contains(n)).toList();
 
-  return totalUnicos;
+  int soma = unicos.where((n) => n >= minimo).fold(0, (a, b) => a + b);
+
+  return soma;
 }
 
 void main() {
@@ -25,7 +30,7 @@ void main() {
     13,14,13,14,15,16,17,18,19,20
   ];
 
-  int resultado = filtroDuplicata(listaInteiros);
+  int resultado = filtroDuplicata(lista: listaInteiros, minimo: 20);
 
   print('/' * 70);
   print('');
