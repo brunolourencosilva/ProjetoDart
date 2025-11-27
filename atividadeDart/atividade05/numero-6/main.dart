@@ -3,6 +3,15 @@
 //  1 = o comprimento da palavra deve ser maior que 5 caracteres;
 //  2 = a palavra deve começar com a letra 'A' (maiúscula ou minúscula).
 
+void filtroLetraA({
+  required List<List<dynamic>> lista,
+}){
+  for (var i in lista) {
+    if ((i.startsWith('a')) || i.startsWith('A') && i.length >= 5 ) {
+      lista.add(i);
+    }
+  }
+}
 void main() {
   List<String> listaPalavras = [
     'Dante',
@@ -22,11 +31,11 @@ void main() {
 
   List<String> listaFiltrada = [];
 
-  for (var i in listaPalavras) {
-    if ((i.startsWith('a')) || i.startsWith('A') && i.length >= 5 ) {
-      listaFiltrada.add(i);
-    }
-  }
+  // for (var i in listaPalavras) {
+  //   if ((i.startsWith('a')) || i.startsWith('A') && i.length >= 5 ) {
+  //     listaFiltrada.add(i);
+  //   }
+  // }
 
   print('/' * 70);
   print('');
