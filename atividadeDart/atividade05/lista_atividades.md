@@ -17,10 +17,10 @@ Refatoração da lista de atividade03 porem com função;
 - [✅] 4. Multiplicação de Elementos Ímpares
         Percorra uma lista de números inteiros. Para cada número, verifique se ele é ímpar. Se for ímpar, ele deve ser multiplicado por 2. Se for par, ele deve permanecer inalterado. O resultado final deve ser uma nova lista com os valores transformados.
 
-- [ ] 5. Determinação do Segundo Valor de Pico
+- [✅] 5. Determinação do Segundo Valor de Pico
         Dada uma lista de números inteiros, encontre e imprima o segundo maior valor presente na lista. A lista pode conter duplicatas, mas o segundo maior valor deve ser o valor distinto que é imediatamente menor que o maior valor.
 
-- [ ] 6. Filtragem Dupla em Lista de Palavras
+- [✅] 6. Filtragem Dupla em Lista de Palavras
         Dada uma lista de palavras (strings), filtre e colete em uma nova lista apenas as palavras que satisfazem duas condições simultâneas: 
         1 = o comprimento da palavra deve ser maior que 5 caracteres; 
         2 = a palavra deve começar com a letra 'A' (maiúscula ou minúscula).

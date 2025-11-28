@@ -2,6 +2,21 @@
 //  Dada uma lista de strings, crie uma única string (frase) concatenando apenas as 
 //  palavras que terminam com a letra 'R' (maiúscula ou minúscula). As palavras devem ser separadas por um espaço na frase final.
 
+String filtroLetraR({
+  required List<String> lista,
+}) {
+    List<String> listaFiltrada = [];
+
+  for (var i in lista) {
+    if ((i.endsWith('R')) || i.endsWith('r')) {
+      listaFiltrada.add(i);
+    }
+  }
+  String fraseFinal = listaFiltrada.join(' ');
+
+  return fraseFinal;
+}
+
 void main() {
   List<String> palavras = [
     "Abyss",
@@ -15,16 +30,8 @@ void main() {
     "Ocaso",
     "Perdurar"
   ];
-
-  List<String> listaFiltrada = [];
   
-  for (var i in palavras) {
-    if ((i.endsWith('R')) || i.endsWith('r')) {
-      listaFiltrada.add(i);
-    }
-  }
-
-  String fraseFinal = listaFiltrada.join(' ');
+  var fraseFinal = filtroLetraR(lista: palavras);
 
   print('/' * 70);
   print('');

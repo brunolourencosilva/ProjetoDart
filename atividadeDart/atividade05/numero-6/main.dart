@@ -3,17 +3,22 @@
 //  1 = o comprimento da palavra deve ser maior que 5 caracteres;
 //  2 = a palavra deve começar com a letra 'A' (maiúscula ou minúscula).
 
-void filtroLetraA({
-  required List<List<dynamic>> lista,
-}){
-  for (var i in lista) {
-    if ((i.startsWith('a')) || i.startsWith('A') && i.length >= 5 ) {
-      lista.add(i);
+List<String> filtroLetraA({
+  required List<String> lista,
+}) {
+  List<String> resultado = [];
+
+  for (var palavra in lista) {
+    if (palavra.length >= 5 && (palavra.startsWith('a') || palavra.startsWith('A'))) {
+      resultado.add(palavra);
     }
   }
+
+  return resultado;
 }
+
 void main() {
-  List<String> listaPalavras = [
+  List<String> pessoas = [
     'Dante',
     'Vergil',
     'Nero',
@@ -25,17 +30,11 @@ void main() {
     'angel',
     'abyssal',
     'Trish',
-    'dmc',
+    'aAah',
     'hell',
   ];
 
-  List<String> listaFiltrada = [];
-
-  // for (var i in listaPalavras) {
-  //   if ((i.startsWith('a')) || i.startsWith('A') && i.length >= 5 ) {
-  //     listaFiltrada.add(i);
-  //   }
-  // }
+  List<String> filtrados = filtroLetraA(lista: pessoas);
 
   print('/' * 70);
   print('');
@@ -43,9 +42,8 @@ void main() {
   print('Filtragem Dupla em Lista de Palavras');
   print('-' * 70);
   print('');
-  print('Lista original: $listaPalavras');
-  print('Lista pós-filtragem: $listaFiltrada');
+  print('Lista original: $pessoas');
+  print('Lista pós-filtragem: $filtrados');
   print('');
   print('/' * 70);
 }
-
