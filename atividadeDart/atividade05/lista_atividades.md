@@ -25,10 +25,10 @@ Refatoração da lista de atividade03 porem com função;
         1 = o comprimento da palavra deve ser maior que 5 caracteres; 
         2 = a palavra deve começar com a letra 'A' (maiúscula ou minúscula).
 
-- [ ] 7. Criação de Frase com Filtro
+- [✅] 7. Criação de Frase com Filtro
         Dada uma lista de strings, crie uma única string (frase) concatenando apenas as palavras que terminam com a letra 'R' (maiúscula ou minúscula). As palavras devem ser separadas por um espaço na frase final.
 
-- [ ] 8. Transformação de Lista de Palavras em Lista de Comprimentos
+- [✅] 8. Transformação de Lista de Palavras em Lista de Comprimentos
         Dada uma lista de palavras, crie uma nova lista de inteiros onde cada inteiro representa o número de caracteres da palavra correspondente na lista original.
  
 - [ ] 9. Filtragem de Emails Válidos (Regra Simples)
