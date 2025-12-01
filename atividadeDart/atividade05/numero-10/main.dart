@@ -4,7 +4,17 @@
 //  O uso de List.reversed é permitido para fins de comparação, 
 //  mas a implementação principal deve usar uma estrutura de repetição (for ou while).
 
-import 'dart:io';
+List<String> espelharLista({
+  required List<String> lista,
+}){
+  List<String> listaInversa = [];
+
+  for (int i = lista.length - 1; i >= 0;i--){
+    listaInversa.add(lista[i]);
+  }
+
+  return listaInversa;
+}
 
 void main(){
 
@@ -21,11 +31,7 @@ void main(){
     'Adeptus'
   ];
 
-  List<String> listaInversa = [];
-
-  for (int i = palavras.length - 1; i >= 0;i--){
-    listaInversa.add(palavras[i]);
-  }
+  var listaReversa = espelharLista(lista: palavras);
 
   print('/' * 70);
   print('');
@@ -34,7 +40,7 @@ void main(){
   print('-' * 70);
   print('');
   print('Lista original: $palavras');
-  print('Lista invertida: $listaInversa');
+  print('Lista invertida: $listaReversa');
   print('');
   print('/' * 70);
 }
