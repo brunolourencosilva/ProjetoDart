@@ -2,11 +2,20 @@
 //  Dada uma lista de strings que supostamente são endereços de email,
 //  filtre e colete em uma nova lista apenas os emails que contêm exatamente um caractere '@' e terminam com ".com".
 
-String filtroEmail({
+List<String> filtroEmail({
   required List<String> lista,
 }){
-  
+    List<String> emailsValidos = [];
+
+  for (var i in lista) {
+    if (i.split('@').length == 2 && i.contains('.com') ){
+      emailsValidos.add(i);
+    }
+  }
+
+  return emailsValidos;
 }
+
 void main(){
 
   List<String> emails = [
@@ -25,14 +34,9 @@ void main(){
     'jack_marston@.prairie',
   ];
 
-  List<String> emailsValidos = [];
+  var listaEmailsValidos = filtroEmail(lista: emails);
 
-  for (var i in emails) {
-    if (i.split('@').length == 2 && i.contains('.com') ){
-      emailsValidos.add(i);
-    }
-  }
-   print('/'*70);
+  print('/'*70);
   print('');
   print('Filtragem de Emails Válidos (Regra Simples)');
   print('');
@@ -49,8 +53,8 @@ void main(){
   print('');
   print('Emails validos:');
   print('');
-  for (var i = 0; i < emailsValidos.length; i++){
-    print(emailsValidos[i]);
+  for (var i = 0; i < listaEmailsValidos.length; i++){
+    print(listaEmailsValidos[i]);
     print('');
   }
    print('/'*70);
