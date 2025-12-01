@@ -37,7 +37,7 @@ Refatoração da lista de atividade03 porem com função;
 - [✅] 10. Reversão Manual da Ordem dos Elementos
         Dada uma lista de strings, crie uma nova lista que contenha os mesmos elementos, mas na ordem inversa da lista original. O uso de List.reversed é permitido para fins de comparação, mas a implementação principal deve usar uma estrutura de repetição (for ou while).
 
-- [ ] 11. Interseção de Duas Listas
+- [✅] 11. Interseção de Duas Listas
         Dadas duas listas de inteiros, crie uma nova lista contendo apenas os elementos que estão presentes em ambas as listas (a interseção).
 
 
