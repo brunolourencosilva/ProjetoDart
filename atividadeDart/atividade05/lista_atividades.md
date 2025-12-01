@@ -31,10 +31,10 @@ Refatoração da lista de atividade03 porem com função;
 - [✅] 8. Transformação de Lista de Palavras em Lista de Comprimentos
         Dada uma lista de palavras, crie uma nova lista de inteiros onde cada inteiro representa o número de caracteres da palavra correspondente na lista original.
  
-- [ ] 9. Filtragem de Emails Válidos (Regra Simples)
+- [✅] 9. Filtragem de Emails Válidos (Regra Simples)
         Dada uma lista de strings que supostamente são endereços de email, filtre e colete em uma nova lista apenas os emails que contêm exatamente um caractere '@' e terminam com ".com".
 
-- [ ] 10. Reversão Manual da Ordem dos Elementos
+- [✅] 10. Reversão Manual da Ordem dos Elementos
         Dada uma lista de strings, crie uma nova lista que contenha os mesmos elementos, mas na ordem inversa da lista original. O uso de List.reversed é permitido para fins de comparação, mas a implementação principal deve usar uma estrutura de repetição (for ou while).
 
 - [ ] 11. Interseção de Duas Listas
