@@ -5,36 +5,60 @@
 
 List<String> normalizacaoClassificacao({
   required List<String> lista,
-}){
+}) {
   List<String> listaResultado = [];
 
-  for (var i in lista){
-    if(){}
+  for (var item in lista) {
+    if (!listaResultado.contains(item)) {
+      listaResultado.add(item);
+    }
   }
+
+  listaResultado.sort();
 
   return listaResultado;
 }
 
-void main(){
-
-List<String> palavras = [
-  "WAAAGH!",
-  "Gork e Mork me guiam!",
-  "Dakaa!",
-  "Mais Dakka!",
-  "WAAAGH!",
-  "Krumpa tudo!",
-  "Orks é melhó!",
-  "Senta a porrada!",
-  "Mais Dakka!",
-  "Roxo deixa invisivel!",
-  "Vermelho corre mais!",
-  "Peças boas são roubadas!",
-  "Krumpa tudo!",
-  "WAAAGH!",
-  "Mekboyz mandam!",
-  "Explosão é arte!",
-];
+void main() {
+  List<String> palavras = [
+    "WAAAGH!",
+    "Gork e Mork me guiam!",
+    "Dakaa!",
+    "Mais Dakka!",
+    "WAAAGH!",
+    "Krumpa tudo!",
+    "Orks é melhó!",
+    "Senta a porrada!",
+    "Mais Dakka!",
+    "Roxo deixa invisivel!",
+    "Vermelho corre mais!",
+    "Peças boas são roubadas!",
+    "Krumpa tudo!",
+    "WAAAGH!",
+    "Mekboyz mandam!",
+    "Explosão é arte!",
+  ];
 
   var listaPosFuncao = normalizacaoClassificacao(lista: palavras);
+
+  print('/' * 70);
+  print('');
+  print('-' * 70);
+  print('Reversão Manual da Ordem dos Elementos');
+  print('-' * 70);
+  print('');
+  print('Lista original:');
+  for (var item in palavras) {
+    print(item);
+  }
+
+  print('-' * 70);
+  print('Lista pos função:');
+  for (var item in listaPosFuncao) {
+    print(item);
+  }
+
+  print('');
+  print('/' * 70);
+
 }
