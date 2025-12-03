@@ -14,7 +14,7 @@ void main(){
 
   print("\n Exemplo 3: Acessado com !");
   // nome agora tem valor, esntão podemos usar nome!
-  String texto = nome!; //Usando o operador "!" para tirar o ? do tipo
+  String texto = nome; //Usando o operador "!" para tirar o ? do tipo
   print("Texto com nome: $texto");
 
   print("\nExemplo 4: Tentando usar variavel não inicializada");
