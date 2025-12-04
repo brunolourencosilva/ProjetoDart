@@ -9,7 +9,7 @@
 - [✅] A. Faça um programa que peça 2 valores. Calcule e imprima  a soma, o produto,
    a subtração, a divisão, o resto da divisão e a divisão inteira.
    
-- [] B. Faça um programa que peça um ano qualquer. O programa deverá calcular e imprimir a idade. 
+- [✅] B. Faça um programa que peça um ano qualquer. O programa deverá calcular e imprimir a idade. 
 
 - [] C. Faça um programa que peça 4 notas com  entrada de dados. O programa deverá calcular a média das notas digitadas.
 
