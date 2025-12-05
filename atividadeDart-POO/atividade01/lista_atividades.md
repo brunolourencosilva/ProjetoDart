@@ -13,7 +13,7 @@
 
 - [✅] C. Faça um programa que peça 4 notas com  entrada de dados. O programa deverá calcular a média das notas digitadas.
 
-- [] D. Faça um programa que receba e divida 2 números. A saída da divisão precisará ser formatada com 4 casas decimais.
+- [✅] D. Faça um programa que receba e divida 2 números. A saída da divisão precisará ser formatada com 4 casas decimais.
 
 - [] E. Faça um programa que recebe um número inteiro e mostre o sucessor e antecessor.
 
