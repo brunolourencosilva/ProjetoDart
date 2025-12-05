@@ -17,7 +17,7 @@
 
 - [✅] E. Faça um programa que recebe um número inteiro e mostre o sucessor e antecessor.
 
-- [] F. Faça um programa que receba um número qualquer e calcule o dobro e o triplo desse número.
+- [✅] F. Faça um programa que receba um número qualquer e calcule o dobro e o triplo desse número.
 
 - [] G. Faça um programa para converter medidas
 
