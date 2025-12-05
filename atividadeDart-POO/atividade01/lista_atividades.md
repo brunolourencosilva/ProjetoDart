@@ -15,7 +15,7 @@
 
 - [✅] D. Faça um programa que receba e divida 2 números. A saída da divisão precisará ser formatada com 4 casas decimais.
 
-- [] E. Faça um programa que recebe um número inteiro e mostre o sucessor e antecessor.
+- [✅] E. Faça um programa que recebe um número inteiro e mostre o sucessor e antecessor.
 
 - [] F. Faça um programa que receba um número qualquer e calcule o dobro e o triplo desse número.
 
