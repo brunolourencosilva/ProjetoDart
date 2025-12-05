@@ -11,7 +11,7 @@
    
 - [✅] B. Faça um programa que peça um ano qualquer. O programa deverá calcular e imprimir a idade. 
 
-- [] C. Faça um programa que peça 4 notas com  entrada de dados. O programa deverá calcular a média das notas digitadas.
+- [✅] C. Faça um programa que peça 4 notas com  entrada de dados. O programa deverá calcular a média das notas digitadas.
 
 - [] D. Faça um programa que receba e divida 2 números. A saída da divisão precisará ser formatada com 4 casas decimais.
 
