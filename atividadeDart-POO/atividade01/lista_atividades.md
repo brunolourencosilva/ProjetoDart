@@ -19,7 +19,7 @@
 
 - [✅] F. Faça um programa que receba um número qualquer e calcule o dobro e o triplo desse número.
 
-- [] G. Faça um programa para converter medidas
+- [✅] G. Faça um programa para converter medidas
 
 - [] H. Faça um programa que receba um número inteiro. O programa deverá imprimir tabuada de multiplicação deste número.
 
