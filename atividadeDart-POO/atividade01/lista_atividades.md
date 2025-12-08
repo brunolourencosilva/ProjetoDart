@@ -23,7 +23,7 @@
 
 - [✅] H. Faça um programa que receba um número inteiro. O programa deverá imprimir tabuada de multiplicação deste número.
 
-- [] I. Faça um programa que receba um valor em reais, depois calcule quantos euros, dólares e wons dariam para comprar com esse valor.
+- [✅] I. Faça um programa que receba um valor em reais, depois calcule quantos euros, dólares e wons dariam para comprar com esse valor.
 
 - [] J. Faça um programa com entrada de dados para calcular a área de 4 objetos.
 
