@@ -37,7 +37,7 @@
 
 - [✅] N. Faça um programa que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar, imprimir o resultado desta operação. 
 
-- [] O. Faça um programa que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. 
+- [✅] O. Faça um programa que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. 
 
 - [] P. Faça um programa para calcular o IMC COMPLETO de uma pessoa.
 
