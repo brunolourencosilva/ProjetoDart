@@ -2,8 +2,6 @@
 
 import 'dart:io';
 
-import '../../../atividadeDart/atividade05/numero-4/main.dart';
-
 class Validacao {
   int verificarNota(String mensagem) {
     while (true) {
