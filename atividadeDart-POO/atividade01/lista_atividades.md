@@ -29,7 +29,7 @@
 
 - [✅] K. Faça um programa para receber um número qualquer e informar na tela se é par ou ímpar. 
 
-- [] L. Faça um algoritmo que leia dois valores inteiros A e B. Se os valores forem iguais deverá somar os dois,
+- [✅] L. Faça um algoritmo que leia dois valores inteiros A e B. Se os valores forem iguais deverá somar os dois,
       caso contrário multiplique A por B. Ao final de qualquer um dos cálculos
       deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela. 
 
