@@ -27,7 +27,7 @@
 
 - [✅] J. Faça um programa com entrada de dados para calcular a área de 4 objetos.
 
-- [] K. Faça um programa para receber um número qualquer e informar na tela se é par ou ímpar. 
+- [✅] K. Faça um programa para receber um número qualquer e informar na tela se é par ou ímpar. 
 
 - [] L. Faça um algoritmo que leia dois valores inteiros A e B. Se os valores forem iguais deverá somar os dois,
       caso contrário multiplique A por B. Ao final de qualquer um dos cálculos
