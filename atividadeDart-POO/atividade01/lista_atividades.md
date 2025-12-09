@@ -25,7 +25,7 @@
 
 - [✅] I. Faça um programa que receba um valor em reais, depois calcule quantos euros, dólares e wons dariam para comprar com esse valor.
 
-- [] J. Faça um programa com entrada de dados para calcular a área de 4 objetos.
+- [✅] J. Faça um programa com entrada de dados para calcular a área de 4 objetos.
 
 - [] K. Faça um programa para receber um número qualquer e informar na tela se é par ou ímpar. 
 
