@@ -39,7 +39,7 @@
 
 - [✅] O. Faça um programa que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. 
 
-- [] P. Faça um programa para calcular o IMC COMPLETO de uma pessoa.
+- [✅] P. Faça um programa para calcular o IMC COMPLETO de uma pessoa.
 
 - [] Q. Faça um programa para conversão de temperaturas (C => F  e F ⇒ C)
 
